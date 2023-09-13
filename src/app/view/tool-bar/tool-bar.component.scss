@@ -1,0 +1,35 @@
+.tool-bar {
+  background-color: #291749;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bk_icon {
+  height: 42px;
+  margin-bottom: 2px;
+}
+
+.button {
+  background-color: #291749;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.links-button {
+  width: 50px;
+  min-width: none !important;
+}
+
+.links-container {
+  align-items: center;
+  display: flex;
+}
+
+.right-side-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}

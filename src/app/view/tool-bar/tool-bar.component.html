@@ -1,0 +1,29 @@
+<mat-toolbar class="tool-bar">
+  <div>
+    <button mat-button class="button">About</button>
+    <button mat-button class="button">Experience</button>
+    <button mat-button class="button">Projects</button>
+  </div>
+  <div class="right-side-container">
+    <div class="links-container">
+      <button
+        mat-button
+        disableRipple="true"
+        class="links-button"
+        (click)="navigateToLinkedIn()"
+      >
+        <img src="/assets/GitHub_Icon2.svg" />
+      </button>
+      <button
+        mat-button
+        disableRipple="true"
+        class="links-button"
+        (click)="navigateToLinkedIn()"
+      >
+        <img src="/assets/LinkedIn_Icon2.svg" />
+      </button>
+    </div>
+
+    <img class="bk_icon" src="/assets/BK_Icon.svg" />
+  </div>
+</mat-toolbar>
