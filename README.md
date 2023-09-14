@@ -2,6 +2,8 @@
 
 My Name is Brian Kemp and this is my Portfolio Project.
 
+See deployed site at [My Portfolio](https://brian-kemp-portfolio.vercel.app/)
+
 ## Installation and Running App
 
 1. Install the Angular CLI
