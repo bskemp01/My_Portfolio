@@ -1,29 +1,47 @@
-<mat-toolbar class="tool-bar">
-  <div>
-    <button mat-button class="button">About</button>
-    <button mat-button class="button">Experience</button>
-    <button mat-button class="button">Projects</button>
-  </div>
-  <div class="right-side-container">
-    <div class="links-container">
-      <button
-        mat-button
-        disableRipple="true"
-        class="links-button"
-        (click)="navigateToLinkedIn()"
-      >
-        <img src="/assets/GitHub_Icon2.svg" />
-      </button>
-      <button
-        mat-button
-        disableRipple="true"
-        class="links-button"
-        (click)="navigateToLinkedIn()"
-      >
-        <img src="/assets/LinkedIn_Icon2.svg" />
-      </button>
+<div class="tool-bar bg-black">
+  <div class="links-container">
+    <div class="flex v-screen items-center justify-center bg-black">
+      <div class="relative">
+        <div
+          class="adjustments absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur"
+        ></div>
+        <button
+          class="relative rounded-lg bg-black text-white hover:bg-gradient-to-br from-cyan-400 to-blue-700"
+          (click)="navigateToLinkedIn()"
+        >
+          <img src="/assets/LinkedIn_Icon2.svg" />
+        </button>
+      </div>
     </div>
 
+    <div class="flex v-screen items-center justify-center bg-black">
+      <div class="relative">
+        <div
+          class="adjustments absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur"
+        ></div>
+        <button
+          class="relative rounded-lg bg-black text-white hover:bg-gradient-to-br from-cyan-400 to-blue-700"
+          (click)="navigateToGitHub()"
+        >
+          <img src="/assets/GitHub_Icon2.svg" />
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="resume-container">
+    <div class="resume flex v-screen items-center justify-center bg-black">
+        <div class="relative">
+          <div
+            class="absolute -inset-1 rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 opacity-75 blur"
+          ></div>
+          <a
+            class="relative rounded-lg bg-black px-7 py-4 text-white not-italic hover:italic hover:bg-gradient-to-br from-cyan-400 to-blue-700"
+            (click)="openResume()"
+            >Resume</a
+          >
+        </div>
+      </div>
     <img class="bk_icon" src="/assets/BK_Icon.svg" />
   </div>
-</mat-toolbar>
+</div>

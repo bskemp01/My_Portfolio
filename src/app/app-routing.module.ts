@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './view/home/home.component';
+import { HomeComponent } from './view/components/home/home.component';
+import { SinglePageComponent } from './view/single-page/single-page.component';
 
 const routes: Routes = [
   {
-    path: 'home',
-    component: HomeComponent,
+    path: '',
+    component: SinglePageComponent,
     
   },
-  {path: '**', redirectTo: '/home'}
+  {path: '**', redirectTo: '/'}
 ];
 
 @NgModule({

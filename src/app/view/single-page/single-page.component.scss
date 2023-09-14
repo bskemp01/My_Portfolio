@@ -1,0 +1,21 @@
+.single-page-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.pages-container {
+  height: 100%;
+  margin-left: 275px;
+  width: 75%;
+}
+
+.stepper-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 325px;
+  width: 25%;
+  z-index: 1000;
+}

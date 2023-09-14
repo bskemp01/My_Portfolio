@@ -1,9 +1,20 @@
 .tool-bar {
-  background-color: #291749;
+  align-items: center;
   color: white;
   display: flex;
-  align-items: center;
+  height: 70px;
   justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.adjustments {
+  height: 25px;
+  margin: 15px 0 0 2px;
+  width: 50px;
 }
 
 .bk_icon {
@@ -25,11 +36,17 @@
 .links-container {
   align-items: center;
   display: flex;
+  justify-content: space-between;
+  width: 110px;
 }
 
-.right-side-container {
+.resume {
+  cursor: pointer;
+}
+
+.resume-container {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 185px;
 }

@@ -1,0 +1,29 @@
+.back-drop {
+  margin: 20px 0 0 0;
+  height: 460px;
+}
+
+.component-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.details-container {
+  height: 490px;
+  width: 1065px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skill-icons-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  width: 100%;
+}

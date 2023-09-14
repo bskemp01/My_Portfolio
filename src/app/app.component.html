@@ -1,5 +1,8 @@
-<ng-container *ngIf="!showLoader">
-  <app-tool-bar></app-tool-bar>
-  <router-outlet></router-outlet>
-</ng-container>
-<app-loading *ngIf="showLoader"></app-loading>
+
+<div class="tailwind-container bg-black">
+  <ng-container *ngIf="!showLoader">
+    <app-tool-bar></app-tool-bar>
+    <router-outlet></router-outlet>
+  </ng-container>
+  <app-loading *ngIf="showLoader"></app-loading>
+</div>
