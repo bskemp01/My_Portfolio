@@ -1,13 +1,18 @@
+.angular-materials-icon {
+  height: 100px;
+  width: 100px;
+}
+
 .back-drop {
   margin: 20px 0 0 0;
   height: 460px;
 }
 
 .component-container {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   height: 90%;
+  justify-content: center;
 }
 
 .details-container {
@@ -15,6 +20,43 @@
   display: flex;
   flex-direction: column;
   height: 490px;
-  justify-content: space-evenly;
   width: 1065px;
+}
+
+.projects-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.projects-list-container {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: solid 1px white;
+  display: flex;
+  height: 350px;
+  padding: 0 10px;
+  width: 350px;
+}
+
+.project-list-text-container {
+  display: flex;
+  flex-direction: column;
+  height: 65%;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.project-link {
+  cursor: pointer;
+}
+
+.current-projects-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent {
+  angularMaterialsProjectLink = 'https://angular-material-examples.vercel.app/';
 
+  openAngularMaterialsProject() {
+    window.open(this.angularMaterialsProjectLink)
+  }
 }
