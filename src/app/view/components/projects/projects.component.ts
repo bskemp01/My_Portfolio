@@ -7,8 +7,13 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
   angularMaterialsProjectLink = 'https://angular-material-examples.vercel.app/';
+  weatherForecastProjectLink = 'https://weather-forecast-nine-neon.vercel.app/';
 
   openAngularMaterialsProject() {
     window.open(this.angularMaterialsProjectLink)
+  }
+
+  openWeatherForecastProject() {
+    window.open(this.weatherForecastProjectLink)
   }
 }
